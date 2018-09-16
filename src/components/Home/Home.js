@@ -3,6 +3,8 @@ import { ScrollView ,StatusBar} from 'react-native';
 import Header from './Header';
 import Avatar from './Avatar';
 import About from './About';
+import WhatIDo from './WhatIDO';
+
 export default class Home extends Component {
     render() {
         return (
@@ -11,6 +13,7 @@ export default class Home extends Component {
             <Header />
             <Avatar/>
             <About />
+            <WhatIDo />
         </ScrollView>
         )
     }
