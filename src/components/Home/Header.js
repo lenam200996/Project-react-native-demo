@@ -19,10 +19,10 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         backgroundColor : 'green',
         width : width,
-        height: height / 9,
+        height: height / 12,
         alignItems: 'center',
         justifyContent: 'space-between',
-        paddingTop: 30,
+        
     },
     icon: {
         margin: 10,
